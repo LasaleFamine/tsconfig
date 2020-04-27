@@ -4,6 +4,7 @@
   "description": "Shared TypeScript config for my projects",
   "license": "MIT",
   "repository": "lasalefamine/tsconfig",
+  "private": false,
   "author": {
     "name": "Alessio Occhipinti",
     "email": "info@godev.space",
