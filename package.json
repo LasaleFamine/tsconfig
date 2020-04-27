@@ -1,26 +1,29 @@
 {
-	"name": "@lasalefamine/tsconfig",
-	"version": "0.0.1",
-	"description": "Shared TypeScript config for my projects",
-	"license": "MIT",
-	"repository": "lasalefamine/tsconfig",
-	"author": {
-		"name": "Alessio Occhipinti",
-		"email": "info@godev.space",
-		"url": "godev.space"
-	},
-	"main": "tsconfig.json",
-	"engines": {
-		"node": ">=10"
-	},
-	"files": [
-		"tsconfig.json"
-	],
-	"keywords": [
-		"tsconfig",
-		"typescript",
-		"ts",
-		"config",
-		"configuration"
-	]
+  "name": "@lasalefamine/tsconfig",
+  "version": "0.0.1",
+  "description": "Shared TypeScript config for my projects",
+  "license": "MIT",
+  "repository": "lasalefamine/tsconfig",
+  "author": {
+    "name": "Alessio Occhipinti",
+    "email": "info@godev.space",
+    "url": "godev.space"
+  },
+  "main": "tsconfig.json",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "release": "standard-version && git push --follow-tags"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ]
 }
