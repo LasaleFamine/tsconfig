@@ -12,10 +12,10 @@
   },
   "main": "tsconfig.json",
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "scripts": {
-    "release": "standard-version"
+    "release": "git pull && standard-version && git push --follow-tags"
   },
   "files": [
     "tsconfig.json"
@@ -26,5 +26,8 @@
     "ts",
     "config",
     "configuration"
-  ]
+  ],
+  "devDependencies": {
+    "standard-version": "9.5.0"
+  }
 }

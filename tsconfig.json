@@ -3,7 +3,7 @@
     // Disabled because of https://github.com/Microsoft/TypeScript/issues/29172
     // "outDir": "dist",
 
-    "target": "es2017", // Node.js 8
+    "target": "ES2021", // Node.js 16
     "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -14,14 +14,15 @@
     "stripInternal": true,
     "strict": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+		"noPropertyAccessFromIndexSignature": true,
     "noEmitOnError": true,
-    // Disabled because of TS bugs: https://github.com/lasalefamine/tsconfig/issues/7
-    // "useDefineForClassFields": true,
+    "useDefineForClassFields": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true
   }
 }

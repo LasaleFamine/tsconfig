@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ yarn add --dev @lasalefamine/tsconfig
+$ pnpm add -D @lasalefamine/tsconfig
 ```
 
 
